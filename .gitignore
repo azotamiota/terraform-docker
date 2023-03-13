@@ -1,0 +1,25 @@
+# Terraform files to include
+*.tfstate*
+*.tfplan
+*.tfstate.backup
+
+# Ignore any .terraform directories
+**/.terraform/*
+
+# Ignore any terraform variables file
+*.tfvars
+
+# Ignore any secret files
+*.pem
+*.key
+*.secret
+*.sensitive
+*.password
+
+# Ignore any logs, binaries or any other unecessary files
+*.log
+*.out
+*.zip
+*.tar.gz
+*.exe
+*.bin
